@@ -5,6 +5,7 @@ export default defineConfig({
   viewportWidth: 1920,
 
   e2e: {
+    baseUrl: 'https://rahulshettyacademy.com/angularpractice/',
     specPattern: 'cypress/tests/**/**.{js,jsx,ts,tsx}',
     supportFile: 'cypress/support/commands.ts',
     retries: 0,
